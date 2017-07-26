@@ -29,7 +29,7 @@ import scala.concurrent.Future
   * Date                          Modified BY
   * 23 July, 2017                 Sheheryar Aamir
   */
- */
+
 @Singleton
 class ApplicationTimer @Inject() (clock: Clock, appLifecycle: ApplicationLifecycle, env: Environment) {
 
